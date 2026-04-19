@@ -1,0 +1,30 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Data — never push raw patient data
+data/raw/
+data/processed/
+
+# ChromaDB — auto-generated, too large for GitHub
+chroma_db/
+chroma_db
+
+# Kaggle credentials
+kaggle.json
+*.json
+!data/processed/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
